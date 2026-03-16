@@ -1,0 +1,44 @@
+# vsim tb_system_integration_4x4 
+# Start time: 11:54:45 on Mar 02,2026
+# Loading work.tb_system_integration_4x4
+# Loading work.top_fsm_4x4_system
+# Loading work.serial_to_parallel_8
+# Loading work.cmd_controller_4x4
+# Loading work.sram_4x4x8_4read
+# Loading work.output_memory_4x4
+# Loading work.compute_fsm_4x4
+# Loading work.dotprod_step4
+# Loading work.activation_unit_relu_q8
+# Loading work.spi_output_fsm_4x4
+# Loading work.piso_8
+run
+add wave -position insertpoint  \
+sim:/tb_system_integration_4x4/clk \
+sim:/tb_system_integration_4x4/dbg_out_c0 \
+sim:/tb_system_integration_4x4/dbg_out_c1 \
+sim:/tb_system_integration_4x4/dbg_out_c2 \
+sim:/tb_system_integration_4x4/dbg_out_c3 \
+sim:/tb_system_integration_4x4/dbg_out_rd_en \
+sim:/tb_system_integration_4x4/dbg_out_rd_row \
+sim:/tb_system_integration_4x4/errors \
+sim:/tb_system_integration_4x4/rst_n \
+sim:/tb_system_integration_4x4/ser_cs \
+sim:/tb_system_integration_4x4/ser_din \
+sim:/tb_system_integration_4x4/ser_dout \
+sim:/tb_system_integration_4x4/timeout_cnt \
+sim:/tb_system_integration_4x4/tx_bytes \
+sim:/tb_system_integration_4x4/tx_cnt
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: lenovo  Hostname: LAPTOP-VQ8SJR1D  ProcessID: 4392
+#           Attempting to use alternate WLF file "./wlfteqzv88".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfteqzv88
+run
+run
+# tb_system_integration_4x4 tx_cnt=16
+# tb_system_integration_4x4 PASS
+# ** Note: $finish    : tb_system_integration_4x4.v(233)
+#    Time: 154650 ns  Iteration: 1  Instance: /tb_system_integration_4x4
+# 1
+# Break in Module tb_system_integration_4x4 at tb_system_integration_4x4.v line 233
+# WARNING: No extended dataflow license exists

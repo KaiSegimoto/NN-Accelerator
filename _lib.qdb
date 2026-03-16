@@ -1,0 +1,473 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lenovo/Desktop/ESE5730code
+vactivation_unit_relu_q8
+Z1 !s110 1772470375
+!i10b 1
+!s100 i1d`:aXomob`>^Z<JGii^0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie62XKBKf1lHWdbXU6[?TA1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1772146203
+8activation_unit_relu_q8.v
+Factivation_unit_relu_q8.v
+!i122 18
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1772470375.000000
+!s107 top_fsm_4x4_system.v|tb_system_integration_4x4.v|tb_SRAM.v|tb_spi_output_fsm_4x4.v|tb_serial_to_parallel_8.v|tb_piso_8.v|tb_output_memory_4x4.v|tb_dotprod_step4.v|tb_compute_fsm_4x4.v|tb_cmd_controller_4x4.v|tb_activation_unit_relu_q8.v|SRAM.v|spi_output_fsm_4x4.v|serial_to_parallel_8.v|piso_8.v|output_memory_4x4.v|dotprod_step4.v|compute_fsm_4x4.v|cmd_controller_4x4.v|activation_unit_relu_q8.v|
+Z6 !s90 activation_unit_relu_q8.v|cmd_controller_4x4.v|compute_fsm_4x4.v|dotprod_step4.v|output_memory_4x4.v|piso_8.v|serial_to_parallel_8.v|spi_output_fsm_4x4.v|SRAM.v|tb_activation_unit_relu_q8.v|tb_cmd_controller_4x4.v|tb_compute_fsm_4x4.v|tb_dotprod_step4.v|tb_output_memory_4x4.v|tb_piso_8.v|tb_serial_to_parallel_8.v|tb_spi_output_fsm_4x4.v|tb_SRAM.v|tb_system_integration_4x4.v|top_fsm_4x4_system.v|
+!i113 1
+Z7 tCvgOpt 0
+vcmd_controller_4x4
+R1
+!i10b 1
+!s100 I2c:99^@k2RRb9HIal42K2
+R2
+IfE6V]d7`^GQ_aZ50a]MKE0
+R3
+R0
+w1772146306
+8cmd_controller_4x4.v
+Fcmd_controller_4x4.v
+!i122 18
+L0 1 169
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 top_fsm_4x4_system.v|tb_system_integration_4x4.v|tb_SRAM.v|tb_spi_output_fsm_4x4.v|tb_serial_to_parallel_8.v|tb_piso_8.v|tb_output_memory_4x4.v|tb_dotprod_step4.v|tb_compute_fsm_4x4.v|tb_cmd_controller_4x4.v|tb_activation_unit_relu_q8.v|SRAM.v|spi_output_fsm_4x4.v|serial_to_parallel_8.v|piso_8.v|output_memory_4x4.v|dotprod_step4.v|compute_fsm_4x4.v|cmd_controller_4x4.v|activation_unit_relu_q8.v|
+R6
+!i113 1
+R7
+vcompute_fsm_4x4
+R1
+!i10b 1
+!s100 AL8oWY]1XeZ7UJ`LB3NYj1
+R2
+I4HaJ>:iicOGV9V[hlZ?]k0
+R3
+R0
+w1772147537
+8compute_fsm_4x4.v
+Fcompute_fsm_4x4.v
+!i122 18
+L0 1 202
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vdotprod_step4
+R1
+!i10b 1
+!s100 dH[f41Rj`PYmG9ih:j06[0
+R2
+I1`<6Z9aTAeI[FZBJm3]GA1
+R3
+R0
+w1772146218
+8dotprod_step4.v
+Fdotprod_step4.v
+!i122 18
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+voutput_memory_4x4
+R1
+!i10b 1
+!s100 _E76?I5c2263JPS=LAzza1
+R2
+Il63YWV<VC>GI1A;Y^TN_A3
+R3
+R0
+w1772146233
+8output_memory_4x4.v
+Foutput_memory_4x4.v
+!i122 18
+L0 1 40
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vpiso_8
+R1
+!i10b 1
+!s100 ?BfT963AzRElc]X^7HZ9O3
+R2
+IEn3LFXUm`aagRTZMO:lL22
+R3
+R0
+w1772146387
+8piso_8.v
+Fpiso_8.v
+!i122 18
+L0 1 59
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vserial_to_parallel_8
+R1
+!i10b 1
+!s100 ZJH]jzZPf<]=heBmC0bzA3
+R2
+I2a09K6cA^:[oTlg4GjAG61
+R3
+R0
+w1772146193
+8serial_to_parallel_8.v
+Fserial_to_parallel_8.v
+!i122 18
+L0 1 44
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vserial_to_parallel_8_legacy
+!s110 1772147913
+!i10b 1
+!s100 ;lcj[H]CEQok3bobU_o[T0
+R2
+ITJ^`o8in3nnK=_PW7jW;02
+R3
+R0
+w1772147905
+8Serial_to_parallel.v
+FSerial_to_parallel.v
+!i122 7
+L0 1 39
+R4
+r1
+!s85 0
+31
+!s108 1772147912.000000
+!s107 top_fsm_4x4_system.v|tb_system_integration_4x4.v|tb_SRAM.v|tb_spi_output_fsm_4x4.v|tb_serial_to_parallel_8.v|tb_piso_8.v|tb_output_memory_4x4.v|tb_dotprod_step4.v|tb_compute_fsm_4x4.v|tb_cmd_controller_4x4.v|tb_activation_unit_relu_q8.v|SRAM.v|spi_output_fsm_4x4.v|serial_to_parallel_8.v|Serial_to_parallel.v|piso_8.v|output_memory_4x4.v|dotprod_step4.v|compute_fsm_4x4.v|cmd_controller_4x4.v|activation_unit_relu_q8.v|
+!s90 activation_unit_relu_q8.v|cmd_controller_4x4.v|compute_fsm_4x4.v|dotprod_step4.v|output_memory_4x4.v|piso_8.v|Serial_to_parallel.v|serial_to_parallel_8.v|spi_output_fsm_4x4.v|SRAM.v|tb_activation_unit_relu_q8.v|tb_cmd_controller_4x4.v|tb_compute_fsm_4x4.v|tb_dotprod_step4.v|tb_output_memory_4x4.v|tb_piso_8.v|tb_serial_to_parallel_8.v|tb_spi_output_fsm_4x4.v|tb_SRAM.v|tb_system_integration_4x4.v|top_fsm_4x4_system.v|
+!i113 1
+R7
+vspi_output_fsm_4x4
+R1
+!i10b 1
+!s100 S3]nFEoI4c?cK[GFLUbW?3
+R2
+IJW<]PS6DI60be6RG8oghl1
+R3
+R0
+w1772147888
+8spi_output_fsm_4x4.v
+Fspi_output_fsm_4x4.v
+!i122 18
+L0 1 152
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vsram_4x4x8_4read
+R1
+!i10b 1
+!s100 lfkSjYZjJ;X^<b6MK?4Hz0
+R2
+ITDVKY3V7[=PP@_<nHj0UB3
+R3
+R0
+w1771549259
+8SRAM.v
+FSRAM.v
+!i122 18
+L0 1 50
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_activation_unit_relu_q8
+R1
+!i10b 1
+!s100 >=TD[7JB8AGk7DiJ?i7c83
+R2
+IP8H7B[^2@YB4b:`8bOVbG0
+R3
+R0
+Z9 w1772467299
+8tb_activation_unit_relu_q8.v
+Ftb_activation_unit_relu_q8.v
+!i122 18
+L0 2 36
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_cmd_controller_4x4
+R1
+!i10b 1
+!s100 JKFLA5gCS9U4<PnWf01aD0
+R2
+ILShEKkVWP5I0V3O`MYScg0
+R3
+R0
+R9
+8tb_cmd_controller_4x4.v
+Ftb_cmd_controller_4x4.v
+!i122 18
+L0 2 76
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_compute_fsm_4x4
+R1
+!i10b 1
+!s100 VU9l[DKT;lFQPKn<<ASf03
+R2
+I`[AfUMSeFME3BhF`3^[Jk1
+R3
+R0
+R9
+8tb_compute_fsm_4x4.v
+Ftb_compute_fsm_4x4.v
+!i122 18
+L0 2 156
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_dotprod_step4
+R1
+!i10b 1
+!s100 GD;Gf]@9i5AIJJc3WBTV`0
+R2
+IlgDh^>l[J3_G<9IBOVXo33
+R3
+R0
+R9
+8tb_dotprod_step4.v
+Ftb_dotprod_step4.v
+!i122 18
+L0 2 40
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_output_memory_4x4
+R1
+!i10b 1
+!s100 CEHkfRjjORaeIHGPe@R@@3
+R2
+IK^S]`QHggBI[Vd7nkCW8_3
+R3
+R0
+R9
+8tb_output_memory_4x4.v
+Ftb_output_memory_4x4.v
+!i122 18
+L0 2 46
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_piso_8
+R1
+!i10b 1
+!s100 OHlFfUT<^:5U:VhOJ<k;?3
+R2
+IGPB>P=c6U[0aFlV[kkIbd2
+R3
+R0
+R9
+8tb_piso_8.v
+Ftb_piso_8.v
+!i122 18
+L0 2 47
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_serial_to_parallel_8
+R1
+!i10b 1
+!s100 b1R6Ra<@XcPI^fCdV6QCo3
+R2
+IAg3TP5LToIc5ZQ55RiCP:0
+R3
+R0
+R9
+8tb_serial_to_parallel_8.v
+Ftb_serial_to_parallel_8.v
+!i122 18
+L0 2 65
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_spi_output_fsm_4x4
+R1
+!i10b 1
+!s100 HYY3ZWJeBR:8U:?<JC3>53
+R2
+IfJO5<Cmz8Xhc7QOTJ3VXN1
+R3
+R0
+R9
+8tb_spi_output_fsm_4x4.v
+Ftb_spi_output_fsm_4x4.v
+!i122 18
+L0 2 104
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_sram_4x4x8_4read
+R1
+!i10b 1
+!s100 feWO08UnSoz5<V1Wj`9LN1
+R2
+I:[14[azU]mXNja2FTaSaS1
+R3
+R0
+R9
+8tb_SRAM.v
+Ftb_SRAM.v
+!i122 18
+L0 2 64
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_system_integration_4x4
+R1
+!i10b 1
+!s100 CFdoXA_HVFC:ff^do1CPW2
+R2
+IhEX4VDBoF;Jlk4LJZiT5b1
+R3
+R0
+w1772470368
+8tb_system_integration_4x4.v
+Ftb_system_integration_4x4.v
+!i122 18
+L0 2 234
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtop_fsm_4x4_system
+R1
+!i10b 1
+!s100 LY:k_]SJWjQ@1hZ]]WaW;1
+R2
+I5SfIP^b`4UN;QA6ZdFN1b2
+R3
+R0
+w1772147452
+8top_fsm_4x4_system.v
+Ftop_fsm_4x4_system.v
+!i122 18
+L0 1 257
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
