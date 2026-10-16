@@ -3,7 +3,6 @@
 A 4×4 weight-stationary **binary systolic-array accelerator** for neural-network inference, taken from Verilog RTL through a full ASIC flow to a DRC/LVS-clean top-level layout in **TSMC 180 nm**.
 
 Final project for **ESE 5730 – Chip Design**, University of Pennsylvania, Spring 2026.
-Team 11: **Kai Segimoto**, **Shang Wang**.
 
 ![Top-level chip layout: digital core inside the I/O padframe](images/top_level_layout.png)
 
