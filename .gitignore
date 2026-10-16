@@ -1,0 +1,27 @@
+# ModelSim / Questa
+work/
+transcript
+*.wlf
+wlft*
+_lib*.qdb
+_lib*.qpg
+_lib*.qtl
+_vmake
+modelsim.ini
+
+# Cadence (Virtuoso / Genus / Innovus / Calibre)
+*.cdslck*
+*.log
+*.log[0-9]*
+*.cmd
+*.cmd[0-9]*
+fv/
+.cadence/
+.timing_file*.tif
+*.enc.dat/
+svdb/
+
+# OS / Office temp files
+.DS_Store
+Thumbs.db
+~$*
