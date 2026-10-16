@@ -54,8 +54,3 @@ Replacing multipliers with XOR-based ±1 products and shrinking the accumulators
 
 The `.docx` / `.pptx` reports hold the schematics, layout views, simulation waveforms and DRC/LVS results. Download a file to view it, since GitHub does not render Office documents.
 
-## Contributions
-
-- **Kai Segimoto**: SRAM macro design and verification (early stage), Verilog optimization, Genus synthesis flow, Innovus place-and-route, layout preparation for physical verification
-- **Shang Wang**: RTL development and top-level integration, the move to the 1-bit architecture, ModelSim environment, and gate-level netlist verification
-- **Both**: synthesis scripts and timing constraints, DRC/LVS/antenna cleanup, final layout adjustments
