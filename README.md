@@ -46,11 +46,11 @@ Replacing multipliers with XNOR-based ±1 products and shrinking the accumulator
 |---|---|
 | `rtl/` | Final RTL (1-bit systolic design) |
 | `early-rtl/` | Earlier 8-bit version from Design Review 1 (SRAM-backed storage, 24-bit accumulators, ReLU + 8-bit quantization, byte-wide serial I/O) with unit and system-integration testbenches |
-| `docs/proposal/` | Project proposal slides |
-| `docs/design-reviews/` | Design Review 1, Design Review 2 and Critical Design Review reports |
-| `docs/Team11_final_pre.pptx` | Final presentation |
+| `docs/proposal/` | Project proposal slides ([PDF](docs/proposal/Team%2011%20Chip%20Design%20Proposal.pdf)) |
+| `docs/design-reviews/` | Design review reports, readable on GitHub: [Design Review 1](docs/design-reviews/Design_Review_1.md), [Design Review 2](docs/design-reviews/Design_Review_2.md), [Critical Design Review](docs/design-reviews/Critical_Design_Review.md) |
+| `docs/Team11_final_pre.pdf` | [Final presentation](docs/Team11_final_pre.pdf) |
 | `diagrams/` | draw.io block diagrams (chip flowchart, systolic array, dot-product simulation) |
 | `images/` | Top-level layout screenshot |
 
-The `.docx` / `.pptx` reports hold the schematics, layout views, simulation waveforms and DRC/LVS results. Download a file to view it, since GitHub does not render Office documents.
+The design reviews have schematics, layout views, simulation waveforms and DRC/LVS results. Each Markdown or PDF version sits next to its original `.docx` / `.pptx`.
 
