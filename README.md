@@ -17,10 +17,10 @@ An external controller loads an input-activation matrix, a weight matrix and a 4
 | Mode control | `nn_control_fsm` | IDLE → LOAD / EXECUTE / OUTPUT handshake (`load_req`, `execute_req`, `output_req`, `busy`) |
 | Serial in | `spi_nibble_slave` | Samples `spi_sclk` / `spi_cs_n` / `spi_mosi` in the system clock domain and assembles 4-bit nibbles |
 | Compute | `systolic_array_ws_4x4` | 4×4 grid of PEs; activations flow right, partial sums flow down, column results read from the bottom row |
-| Processing element | `systolic_pe_ws` | Holds a 1-bit stationary weight; bipolar 1-bit multiply with an XOR (equal bits → +1, different → −1) and a 4-bit signed accumulator |
+| Processing element | `systolic_pe_ws` | Holds a 1-bit stationary weight; bipolar 1-bit multiply with an XNOR (equal bits → +1, different → −1) and a 4-bit signed accumulator |
 | Serial out | `serial_nibble_tx` | Shifts each 4-bit output row out MSB-first on `serial_out` |
 
-Replacing multipliers with XOR-based ±1 products and shrinking the accumulators made the array small enough to fit the course area budget.
+Replacing multipliers with XNOR-based ±1 products and shrinking the accumulators made the array small enough to fit the course area budget.
 
 ## Implementation flow
 
